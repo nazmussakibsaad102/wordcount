@@ -1,0 +1,15 @@
+
+<!doctype html>
+<html lang="en">
+<body>
+	<a href="{%url 'about'%}">About</a>
+	<h1>Word Count</h1>
+<form  name="contact" action = "{%url 'count'%}"">
+	<div>
+		<textarea cols= "50" rows = "10" name="paragraph" id="message"></textarea>
+		</div>
+			<input id="submit" type="submit" name="submit" value="Count"/>
+
+</form>
+</body>
+</html>

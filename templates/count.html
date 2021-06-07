@@ -1,0 +1,10 @@
+<a href="{%url 'home'%}">Count Again?</a>
+<p>Your paragraph is: {{fulltext}}</p>
+<h1>There is {{all_word_number}} words in the paragraph</h1>
+<h1>The word Dictionary is :-</h1>
+<ul>
+    {% for item,word in word_dictionary%}
+        <li>{{ item}}: {{word}}</li>
+    {% endfor %}
+    </ul>
+    
